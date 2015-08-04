@@ -7,6 +7,10 @@ class Exercise1Spec extends FlatSpec {
     assert(Exercise1.fib(-1) == 0)
   }
 
+  "fib(n)" must "equal 0 when n = 0" in {
+    assert(Exercise1.fib(0) == 0)
+  }
+
   "fib(n)" must "equal 1 when n = 1" in {
     assert(Exercise1.fib(1) == 1)
   }
