@@ -1,2 +1,2 @@
 # FPinScalaExercises
-Exercises from Functional Programming in Scala
+Exercises from [Functional Programming in Scala](http://www.manning.com/bjarnason/).
