@@ -2,7 +2,7 @@ package com.jjoedouglas.FPinScalaExercises.chapter2
 
 import org.scalatest._
 
-class Exercise1Spec extends FlatSpec {
+class Ch2Ex1 extends FlatSpec {
   "fib(n)" must "equal 0 for negative values of n" in {
     assert(Exercise1.fib(-1) == 0)
   }

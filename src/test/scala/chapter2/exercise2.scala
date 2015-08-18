@@ -2,7 +2,7 @@ package com.jjoedouglas.FPinScalaExercises.chapter2
 
 import org.scalatest._
 
-class Exercise2Spec extends FlatSpec {
+class Ch2Ex2 extends FlatSpec {
   private val unsortedArray = Array(1,3,2);
   private val sortedArray = Array(1,2,3);
   private val sameElementArray = Array(3,3,3);
